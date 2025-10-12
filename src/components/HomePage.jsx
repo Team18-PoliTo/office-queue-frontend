@@ -1,0 +1,27 @@
+import { Button } from "react-bootstrap";
+import { Link } from "react-router";
+import { use, useContext, useEffect } from "react";
+import { NavbarTextContext } from "../App";
+
+function Homepage() {
+
+  const { setNavbarText } = useContext(NavbarTextContext);
+  useEffect(() => {
+    setNavbarText("Office 18");
+  }, []);
+
+  return (
+    <div className="homepage-container">
+      <Button className="homepage-button">
+        <i className="bi bi-person-fill icon"></i>
+        Customer
+      </Button>
+      <Link to="/officer" className="btn homepage-button">
+          <i className="bi bi-briefcase-fill icon"></i>
+          Officer
+       </Link>
+    </div>
+  );
+}
+
+export default Homepage;
