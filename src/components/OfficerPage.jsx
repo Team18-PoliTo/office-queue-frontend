@@ -2,6 +2,7 @@ import { useContext, useState, useEffect } from "react";
 import { NavbarTextContext } from "../App";
 import { Container, Button, Card } from "react-bootstrap";
 import API from "../API/API.mjs";
+import './Style/OfficerPage.css'
 
 function OfficerPage() {
 

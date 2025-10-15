@@ -1,7 +1,7 @@
-import { Button } from "react-bootstrap";
 import { Link } from "react-router";
 import { use, useContext, useEffect } from "react";
 import { NavbarTextContext } from "../App";
+import './Style/HomePage.css'
 
 function Homepage() {
 
@@ -12,10 +12,10 @@ function Homepage() {
 
   return (
     <div className="homepage-container">
-      <Button className="homepage-button">
-        <i className="bi bi-person-fill icon"></i>
-        Customer
-      </Button>
+      <Link to="/services" className="btn homepage-button">
+          <i className="bi bi-person-fill icon"></i>
+          Customer
+       </Link>
       <Link to="/officer" className="btn homepage-button">
           <i className="bi bi-briefcase-fill icon"></i>
           Officer

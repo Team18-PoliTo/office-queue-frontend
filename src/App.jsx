@@ -8,6 +8,7 @@ import './App.css'
 import DefaultLayout from './components/DefaultLayout'
 import Homepage from "./components/HomePage";
 import OfficerPage from "./components/OfficerPage";
+import ServicesPage from "./components/ServicesPage";
 
 export const NavbarTextContext = createContext();
 
@@ -21,6 +22,7 @@ function App() {
         <Route element={<DefaultLayout/>}>
           <Route path="/" element={<Homepage/>} />
           <Route path="/officer" element={<OfficerPage/>} />
+          <Route path="/services" element={<ServicesPage/>} />
         </Route>
       </Routes>
     </NavbarTextContext.Provider>

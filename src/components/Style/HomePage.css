@@ -1,0 +1,46 @@
+
+/* Button Container */
+.homepage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+/* Main Buttons Style */
+.homepage-button {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-family: 'Inter', sans-serif;
+  border-radius: 12px;
+  margin: 0 100px;
+  background-color: #7393B3;
+  border-color: #7393B3;
+  color: white;
+}
+
+.homepage-button:hover {
+  background-color: #5A7A99;
+  border-color: #5A7A99;
+  color: white;
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
+
+.homepage-button:active {
+  background-color: #516e8a !important;
+  border-color: #516e8a !important;
+  color: white !important;
+}   
+
+/* Button Icons Style */
+.homepage-button .icon {
+  font-size: 8rem;
+  margin-bottom: 2px;
+  color: white;
+}

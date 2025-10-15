@@ -1,0 +1,70 @@
+
+/* Officer Page Container */
+.officer-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Current Customer info */
+.card-rectangle {
+  background-color: #7393B3;
+  width: 90%;
+  max-width: 900px;
+  height: 200px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 40px;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+.card-left {
+  font-size: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  align-self: flex-start;
+}
+
+.card-right {
+  font-size: 4.5rem;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  flex-grow: 0;      
+  margin-left: auto;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+/* Call Next Button Style */
+.call-next-button {
+  width: 200px;
+  height: 60px;
+  background-color: #7393B3;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.call-next-button:hover {
+  background-color: #5a6f88;
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
+
+.call-next-button:active {
+  background-color: #516e8a !important;
+  border-color: #516e8a !important;
+  color: white;
+}
+

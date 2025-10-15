@@ -1,0 +1,129 @@
+
+/* Service List Style */
+
+.service-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+/* Main Buttons Style */
+.service-card {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  border-radius: 12px;
+  margin: 0 70px;
+  background-color: #7393B3;
+  border-color: #7393B3;
+  color: #FFF;
+}
+
+.service-card:hover {
+  background-color: #5A7A99;
+  border-color: #5A7A99;
+  color: white;
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
+
+.service-card:active {
+  background-color: #516e8a !important;
+  border-color: #516e8a !important;
+  color: white !important;
+}
+
+.service-icon {
+  font-size: 8rem;
+  margin-bottom: 2px;
+  color: white;
+}
+
+/* Ticket Modal Styles */
+.ticket-modal .modal-dialog {
+  max-width: 400px;
+}
+
+.ticket-modal .modal-content {
+  border-radius: 15px;
+  background-color: #f8f9fa;
+  height: 500px;
+}
+
+.ticket-modal-body {
+  display: flex;
+  padding: 40px 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.ticket-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ticket-title {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  margin-bottom: 0;
+}
+
+.ticket-number {
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  margin: 90px 0;
+  letter-spacing: 2px;
+}
+
+.ticket-message {
+  font-size: 1.2rem;
+  font-family: 'Inter', sans-serif;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Modal Loading Styles */
+.loading-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.loading-spinner {
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 2rem;
+}
+
+.loading-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.loading-message {
+  font-size: 1.1rem;
+  font-family: 'Inter', sans-serif;
+  color: #666;
+  text-align: center;
+  margin: 0;
+}

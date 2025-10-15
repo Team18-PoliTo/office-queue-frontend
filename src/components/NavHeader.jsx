@@ -2,6 +2,7 @@ import { Container, Navbar, Button } from 'react-bootstrap';
 import { Link, useLocation } from 'react-router';
 import { useContext } from "react";
 import { NavbarTextContext } from "../App";
+import './Style/NavHeader.css'
 
 function NavHeader() {
   const { navbarText } = useContext(NavbarTextContext);
