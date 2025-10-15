@@ -12,9 +12,10 @@
 .card-rectangle {
   background-color: #7393B3;
   width: 90%;
-  max-width: 900px;
-  height: 200px;
+  max-width: 1200px;
+  height: 300px;
   border-radius: 12px;
+  border: none;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -24,13 +25,13 @@
 }
 
 .card-left {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: 'Inter', sans-serif;
   align-self: flex-start;
 }
 
 .card-right {
-  font-size: 4.5rem;
+  font-size: 6rem;
   font-weight: bold;
   font-family: 'Inter', sans-serif;
   flex-grow: 0;      

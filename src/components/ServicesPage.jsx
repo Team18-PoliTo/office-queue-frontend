@@ -11,7 +11,6 @@ function ServicesPage() {
   const [ticketNumber, setTicketNumber] = useState("");
   const [loading, setLoading] = useState(false);
 
-
   const { setNavbarText } = useContext(NavbarTextContext);
 
   useEffect(() => {
@@ -53,7 +52,6 @@ function ServicesPage() {
   const handleServiceClick = async (serviceId) => {
     setLoading(true);
     try {
-
       // Call the API to create a ticket
       const ticket = await API.postTicket(serviceId);
 
@@ -69,7 +67,6 @@ function ServicesPage() {
     }
   };
 
-  // Mostra un loading mentre i servizi vengono caricati
   if (servicesLoading) {
     return (
       <div className="service-page-container">
@@ -124,7 +121,9 @@ function ServicesPage() {
             </div>
           ) : (
             <div className="ticket-display">
-              <h2 className="ticket-title"><strong>Your number is</strong></h2>
+              <h2 className="ticket-title">
+                <strong>Your number is</strong>
+              </h2>
               <div className="ticket-number">{ticketNumber}</div>
               <p className="ticket-message">Please wait your turn</p>
             </div>

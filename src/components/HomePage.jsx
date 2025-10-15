@@ -16,7 +16,7 @@ function Homepage() {
           <i className="bi bi-person-fill icon"></i>
           <strong>Customer</strong>
        </Link>
-      <Link to="/officer" className="btn homepage-button">
+      <Link to="/officers" className="btn homepage-button">
           <i className="bi bi-briefcase-fill icon"></i>
           <strong>Officer</strong>
        </Link>
