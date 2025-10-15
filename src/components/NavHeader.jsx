@@ -12,7 +12,7 @@ function NavHeader() {
   return(
     <Navbar className="navbar-custom mx-3">
       <Container>
-        <Navbar.Brand>{navbarText}</Navbar.Brand>
+        <Navbar.Brand><strong>{navbarText}</strong></Navbar.Brand>
         { location.pathname !== "/" &&
           <Link className='btn home-button' to="/"><i className='bi bi-house'> </i></Link>
         }

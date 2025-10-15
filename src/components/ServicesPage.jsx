@@ -95,7 +95,7 @@ function ServicesPage() {
           }}
         >
           <i className="bi bi-people service-icon"></i>
-          Service {service.name}
+          <strong>Service {service.name} </strong>
         </Card>
       ))}
 
@@ -124,7 +124,7 @@ function ServicesPage() {
             </div>
           ) : (
             <div className="ticket-display">
-              <h2 className="ticket-title">Your number is</h2>
+              <h2 className="ticket-title"><strong>Your number is</strong></h2>
               <div className="ticket-number">{ticketNumber}</div>
               <p className="ticket-message">Please wait your turn</p>
             </div>
